@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Kenya</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            padding: 10px 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: green;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Discover Kenya</h1>
+        <p>Your ultimate guide to the beauty of Kenya</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Home</h2>
+            <p>Discover the diverse landscapes, vibrant wildlife, and rich cultural heritage of Kenya. Explore the savannahs, majestic mountains, serene beaches, and bustling cities!</p>
+        </section>
+
+        <!-- Destinations Section -->
+        <section id="destinations">
+            <h2>Top Destinations in Kenya</h2>
+            <p>Here are some must-visit tourist sites in Kenya:</p>
+
+            <!-- First Table: Tourist Sites Overview -->
+            <table>
+                <tr>
+                    <th>Destination</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Mount Kenya</td>
+                    <td>The highest peak in Kenya and a climber's favorite.</td>
+                </tr>
+                <tr>
+                    <td>Maasai Mara</td>
+                    <td>Famous for the Great Migration and stunning wildlife.</td>
+                </tr>
+                <tr>
+                    <td>Lamu Island</td>
+                    <td>A UNESCO World Heritage Site with rich Swahili culture.</td>
+                </tr>
+                <tr>
+                    <td>Lake Nakuru</td>
+                    <td>Known for flamingos and wildlife like rhinos.</td>
+                </tr>
+                <tr>
+                    <td>Amboseli National Park</td>
+                    <td>Home to large elephant herds and stunning views of Mount Kilimanjaro.</td>
+                </tr>
+            </table>
+
+            <!-- Second Table: More Details About Each Place -->
+            <table>
+                <tr>
+                    <th>Destination</th>
+                    <th>Location</th>
+                    <th>Best Time to Visit</th>
+                </tr>
+                <tr>
+                    <td>Mount Kenya</td>
+                    <td>Central Kenya</td>
+                    <td>January - March</td>
+                </tr>
+                <tr>
+                    <td>Maasai Mara</td>
+                    <td>Southwest Kenya</td>
+                    <td>July - October</td>
+                </tr>
+                <tr>
+                    <td>Lamu Island</td>
+                    <td>Coastal Kenya</td>
+                    <td>Year-round</td>
+                </tr>
+                <tr>
+                    <td>Lake Nakuru</td>
+                    <td>Rift Valley</td>
+                    <td>July - October</td>
+                </tr>
+                <tr>
+                    <td>Amboseli National Park</td>
+                    <td>Southern Kenya</td>
+                    <td>June - October</td>
+                </tr>
+            </table>
+
+            <!-- Tourist Site 1: Mount Kenya -->
+            <h3>1. Mount Kenya</h3>
+            <img src="mt_kenya.jpeg">
+            <p>Mount Kenya is the second highest mountain in Africa, standing tall at 5,199 meters. It is a popular destination for climbers and trekkers. The mountain features diverse landscapes, including glaciers, alpine meadows, and forests. The area is also home to wildlife such as elephants, buffaloes, and various bird species.</p>
+
+            <!-- Tourist Site 2: Maasai Mara -->
+            <h3>2. Maasai Mara National Reserve</h3>
+            <img src="maasai_mara.jpeg" >
+            <p>Maasai Mara is renowned for the annual Great Migration, where millions of wildebeest, zebras, and gazelles travel across the plains in search of fresh grazing. The reserve is also famous for its rich wildlife, including lions, leopards, cheetahs, and elephants, making it a top destination for safaris.</p>
+
+            <!-- Tourist Site 3: Lamu Island -->
+            <h3>3. Lamu Island</h3>
+            <img src="lamu_island.jpg" >
+            <p>Lamu Island, located off the coast of Kenya, is known for its preserved Swahili culture and ancient architecture. It is a UNESCO World Heritage Site and offers a peaceful escape with its sandy beaches, historic towns, and traditional dhow sailing. The island is rich in history and has a vibrant local culture.</p>
+
+            <!-- Tourist Site 4: Lake Nakuru -->
+            <h3>4. Lake Nakuru</h3>
+            <img src="lake nakuru.jpg" >
+            <p>Lake Nakuru is famous for its massive population of flamingos that gather along the shores, especially during the wet season. The lake is also home to a variety of wildlife, including black rhinos, white rhinos, giraffes, and lions. The surrounding Nakuru National Park is a great spot for a safari.</p>
+
+            <!-- Tourist Site 5: Amboseli National Park -->
+            <h3>5. Amboseli National Park</h3>
+            <img src="amboseli.jpg" >
+            <p>Amboseli National Park is famous for its large herds of elephants and its breathtaking views of Mount Kilimanjaro, the highest peak in Africa. Visitors can enjoy a variety of wildlife, including lions, cheetahs, giraffes, and hippos, as well as stunning landscapes of savannah and wetlands.</p>
+
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Fill out the form below:</p>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Discover Kenya. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function validateForm() {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+            
+            if (name === "" || email === "" || message === "") {
+                alert("All fields must be filled out!");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
